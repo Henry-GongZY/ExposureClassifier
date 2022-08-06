@@ -1,0 +1,8 @@
+train:
+  batch_size: 32
+  learning_rate: 0.01
+  gpu_ids: 0,1,2,3
+  epoch: 100
+
+predict:
+  gpu_ids:
